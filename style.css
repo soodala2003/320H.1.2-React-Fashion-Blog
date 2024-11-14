@@ -18,19 +18,74 @@ header, main, footer {
     margin: 1rem 2rem;
 }
 
-h1 {
-    color: tomato;
+header nav {
+    padding-bottom: 30px;
 }
 
 .nav-list {
-    /* margin-left: auto; */ 
+    padding: 0;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header .nav-list li a {
+    color: lightgray;
+} 
+
+h1 {
+    font-size: 50px; 
+    color: tomato; 
+    font-weight: lighter;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+h2 {
+    font-weight: lighter;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px; 
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+footer .nav-list li a {
+    color: tomato;
+    text-decoration: none;
+} 
+
+time {
     color: lightgray;
 }
 
-.nav-list li a {
-    color: lightgray;
+article {
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
 }
+
+article p::first-letter {
+    color: lightgray;
+    font-size: 4em;
+    float: left;
+    padding-right: 16px;
+}
+
+aside ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;    
+}
+
+aside ul li a {
+    color: tomato;
+    text-decoration: none;
+    font-weight: bold;
+}
+
