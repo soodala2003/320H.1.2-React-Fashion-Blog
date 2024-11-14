@@ -21,3 +21,16 @@ header, main, footer {
 h1 {
     color: tomato;
 }
+
+.nav-list {
+    /* margin-left: auto; */ 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: lightgray;
+}
+
+.nav-list li a {
+    color: lightgray;
+}
